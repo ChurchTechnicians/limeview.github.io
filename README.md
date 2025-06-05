@@ -19,6 +19,10 @@ cp .env.example .env # add your Supabase credentials
 npm run dev
 ```
 
+## Deployment
+
+1. The `homepage` field in `limeview/package.json` is already set to the custom domain `https://view.limeshop.no/limeview`.
+=======
 ## Deployment to GitHub Pages
 
 1. Edit the existing `homepage` field in `limeview/package.json` so it points to `https://<your-username>.github.io/limeview`.
@@ -30,4 +34,6 @@ npm install --save-dev gh-pages
 npm run deploy
 ```
 
+After deployment the site will be available at `https://view.limeshop.no/limeview`.
+=======
 The project should then be available on your GitHub Pages site.
