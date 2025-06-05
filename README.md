@@ -22,6 +22,10 @@ npm run dev
 ## Deployment
 
 1. The `homepage` field in `limeview/package.json` is already set to the custom domain `https://view.limeshop.no/limeview`.
+=======
+## Deployment to GitHub Pages
+
+1. Edit the existing `homepage` field in `limeview/package.json` so it points to `https://<your-username>.github.io/limeview`.
 2. Install the `gh-pages` package if not already installed.
 3. Run `npm run deploy` from the `limeview` directory to build and publish the `dist` folder to the `gh-pages` branch.
 
@@ -31,3 +35,5 @@ npm run deploy
 ```
 
 After deployment the site will be available at `https://view.limeshop.no/limeview`.
+=======
+The project should then be available on your GitHub Pages site.

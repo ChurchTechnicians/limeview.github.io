@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://view.limeshop.no/limeview",
+  "homepage": "http://view.limeshop.no/limeview",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
