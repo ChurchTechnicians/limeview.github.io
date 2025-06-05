@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  background: #141414;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #000;
+}
+
+.navbar a {
+  margin-right: 1rem;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  background: #222;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.video-player {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
